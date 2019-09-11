@@ -16,7 +16,7 @@ require(['gitbook'], function(gitbook) {
     }
   }
 
-  function addEvent(category, label, value) {
+  function addEvent(gtag, category, label, value) {
     gtag('event', 'page', {
       event_category: category,
       event_label: label,
@@ -44,7 +44,7 @@ require(['gitbook'], function(gitbook) {
       gtag('js', new Date())
 
       gtag('config', pluginsConfig.token)
-      addEvent('navigate', 'menu', state.chapterTitle)
+      addEvent(gtag, 'navigate', 'menu', state.chapterTitle)
     }
   })
 })

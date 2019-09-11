@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-gtag",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Google Analytics and event",
   "main": "index.js",
   "engines": {
