@@ -1,0 +1,31 @@
+{
+  "name": "gitbook-plugin-gtag",
+  "version": "0.0.1",
+  "description": "Google Analytics and event",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=2.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halaproliu/gitbook-plugin-gtag.git"
+  },
+  "keywords": [
+    "google",
+    "analytics",
+    "ga",
+    "event",
+    "gitbook",
+    "plugin",
+    "gitbook-plugin"
+  ],
+  "author": "halapro.liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halaproliu/gitbook-plugin-gtag/issues"
+  },
+  "homepage": "https://github.com/halaproliu/gitbook-plugin-gtag#readme"
+}
